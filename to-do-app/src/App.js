@@ -18,10 +18,10 @@ function App() {
             <button type="button" className="primaryBtn">Add</button>
           </div>
         </div>
-        
+
         <div className="btn-area">
-          <button>Todo</button>
-          <button>Completed</button>
+          <button className="secondaryBtn">Todo</button>
+          <button className="secondaryBtn">Completed</button>
         </div>
 
         <div className="todo-list">
