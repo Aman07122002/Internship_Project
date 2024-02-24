@@ -54,7 +54,7 @@ h1{
   outline:2px solid rgb(225, 118, 56);/*zoom effect will be lost doing to this border to outline*/
 }
 
-.primaryBtn{
+.primary-btn{
   background-color: rgb(225, 118, 56);
   color:white;
   border:none;
@@ -65,8 +65,12 @@ h1{
   cursor: pointer;
 }
 
-.primaryBtn:hover{
+.primary-btn:hover{
   background-color: rgb(179, 176, 176);
+}
+
+.btn-area{
+  margin-bottom: 10px;
 }
 
 .secondaryBtn{
@@ -80,14 +84,13 @@ h1{
   cursor: pointer;
 }
 
-.active{
+.btn-area .active{
   background-color: rgb(225, 118, 56);
 }
 
 .todo-list{
   display: flex;
   flex-direction: column;
-  padding: 15px;
 }
 
 .todo-list-item{
